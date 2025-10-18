@@ -1,0 +1,139 @@
+.admin-container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+  min-height: calc(100vh - 90px); 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+
+.table-responsive .tabla-cocheras {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  table-layout: fixed; 
+}
+
+.table-responsive .tabla-cocheras th {
+  background: #2c5aa0;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.table-responsive .tabla-cocheras th:last-child {
+  text-align: center;
+  width: 200px;
+}
+
+.table-responsive .tabla-cocheras td {
+  padding: 15px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-responsive .tabla-cocheras td:last-child {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.table-responsive .tabla-cocheras tr:hover {
+  background-color: #f8f9fa;
+}
+.btn-group .btn-liberar, .btn-group .btn-eliminar {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin: 0 3px;
+}
+
+.btn-group .btn-liberar {
+  background: #78909c;
+  color: #212529;
+}
+
+.btn-group .btn-liberar:hover {
+  background: #607d8b;
+  transform: translateY(-1px);
+}
+
+.btn-group .btn-eliminar {
+  background: #78909c;
+  color: #212529;
+}
+
+.btn-group .btn-eliminar:hover {
+  background: #607d8b;
+  transform: translateY(-1px);
+}
+
+.btn-group .btn-eliminar {
+  background: #78909c;
+  color: #212529;
+}
+
+.btn-group .btn-eliminar:hover {
+  background: #607d8b;
+  transform: translateY(-1px);
+}
+
+.añadir-cochera .btn-anadir {
+  background: #2c5aa0;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.añadir-cochera.btn-anadir:hover {
+  background: #1a4480;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(44, 90, 160, 0.3);
+}
+
+@media (max-width: 768px) {
+  .admin-header {
+    padding: 10px 20px;
+  }
+  .logo img {
+    height: 50px;
+    max-width: 180px;
+  }
+  .p-6 {
+    padding: 16px !important;
+  }
+  .max-w-md {
+    max-width: 98vw !important;
+  }
+}

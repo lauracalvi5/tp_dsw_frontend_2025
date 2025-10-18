@@ -1,0 +1,138 @@
+.mapa-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+.mapa-responsive {
+  width: 58vw !important;
+  height: 100vh !important;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+}
+
+
+@media (max-width: 600px) {
+  .mapa-responsive {
+    width: 50vw !important;
+    height: 100vh !important;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.15); 
+
+  }
+}
+.user-location {
+  width: 12px;
+  height: 12px;
+  background-color: #4285f4;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+
+aside, .filtros {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.lista-estacionamientos {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 1.5rem 1rem;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+
+.card {
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.card .badge {
+  font-size: 0.85em;
+}
+
+.card .bg-success {
+  background: #28a745 !important;
+}
+
+.card .bg-danger {
+  background: #dc3545 !important;
+}
+
+.card .bg-info {
+  background: #17a2b8 !important;
+}
+
+.card .bg-primary {
+  background: #007bff !important;
+}
+
+.card .text-muted {
+  color: #6c757d !important;
+}
+
+
+@media (max-width: 991px) {
+  aside, .filtros, .lista-estacionamientos {
+    margin-bottom: 1rem;
+    max-height: none;
+  }
+}
+
+.lista-estacionamientos .card,
+aside .card {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+.lista-estacionamientos .card,
+aside .card {
+  min-height: 110px; 
+}
+
+
+.card-body {
+  width: 100%;
+  overflow: hidden;
+}
+
+.modal-backdrop-custom {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.25);
+  z-index: 1050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-custom {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  max-width: 400px;
+  width: 95vw;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+  position: relative;
+}
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
