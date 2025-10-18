@@ -270,7 +270,6 @@ export default function MapaUsuario() {
                       Reservar
                     </button>
                   )}
-                  <button className="btn btn-link w-100" style={{textDecoration: "underline"}}>Programar reserva</button>
                 </div>
               </div>
             )}
