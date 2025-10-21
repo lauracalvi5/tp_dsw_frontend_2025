@@ -5,8 +5,7 @@
 **Nombre del Proyecto:** ParkEasy - Sistema de Gestión de Estacionamientos  
 **Tipo:** Aplicación Web Frontend  
 **Tecnología Principal:** React 19.0.0-rc.1  
-**Framework de Build:** Vite 6.3.5  
-**Fecha de Documentación:** Octubre 2025  
+**Framework de Build:** Vite 6.3.5   
 **Repositorio:** tp_dsw_frontend_2025  
 
 
@@ -28,11 +27,7 @@
 - Monitoreo de reservas activas.
 - Atención de consultas mediante chat.
 
----
-
 ## Arquitectura y Tecnologías
-
-### Stack Tecnológico Principal
 
 **Frameworks y librerías base:**
 - React 19.0.0-rc.1  
@@ -165,7 +160,6 @@ Manejo de errores con estructura estándar `try/catch` y alertas informativas.
 **Pasos:**
 ```bash
 git clone https://github.com/lauracalvi5/tp_dsw_frontend_2025.git
-cd tp_dsw_frontend_2025
 pnpm install
 pnpm run dev
 ```
